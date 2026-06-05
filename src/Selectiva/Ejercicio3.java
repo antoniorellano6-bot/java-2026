@@ -29,6 +29,6 @@ public class Ejercicio3 {
         System.out.println("Monto de compra: S/ " + compra);
         System.out.println("Descuento: S/ " + dscto);
         System.out.println("Total a pagar: S/ " + total);
-
+         
     }
 }
