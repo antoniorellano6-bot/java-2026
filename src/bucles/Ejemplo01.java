@@ -7,7 +7,7 @@ public class Ejemplo01 {
         Scanner entradaDatos=new Scanner(System.in);
        String nombreUsuario= "";
        String clave = "";
-        while (nombreUsuario == "juan"|| clave== "12345"){
+        while (!nombreUsuario.equals("juan") || !clave.equals("12345")){
             System.out.printf("ingrese nombre del usuario");
             nombreUsuario = entradaDatos.nextLine();
 
@@ -16,9 +16,10 @@ public class Ejemplo01 {
 
             if (nombreUsuario== "juan"||clave== "12345");
             System.out.println("Datos incorrectos, no puedes ingresar");
+
         }
-
-
+        System.out.println("bienvenido al sistema");
+        entradaDatos.close();
     }
 
 
